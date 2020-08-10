@@ -28,5 +28,5 @@ scamtext = () => {
     }
 }
 Scammed = () => {
-    alert(" You Just Got Scammed! But Lucky this was Just a Simulation. A Good tip is that You never click on these type of flashy looking websites. Microsoft or any offical will never contact you! To solve this, you just simply close the tab.");
+    alert("You Just Got Scammed! But Lucky this was Just a Simulation. A Good tip is that You never click on these type of flashy looking websites. Microsoft or any offical company will never contact through a website! To solve this, you just simply close the tab.");
 }

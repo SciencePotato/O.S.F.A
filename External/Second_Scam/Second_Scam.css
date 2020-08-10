@@ -2,7 +2,7 @@ body{
     overflow: hidden;
     display: grid;
     margin: 0px;
-    width: 100vw;
+    width: 110vw;
     height: 100vh;
     background-image: url("images/Fortnitebg.png");
     background-repeat: no-repeat;
@@ -52,11 +52,13 @@ content form{
     top: 15%;
 }
 content input{
-    margin: 20px;
+    margin: 10px;
 }
 input{
     width: 200px;
-    border-radius: 5px;
+    height: 30px;
+    border-radius: 15px;
+    outline: none;
 }
 main img{
     position: absolute;
@@ -64,5 +66,34 @@ main img{
     height: 72%;
 }
 button{
-    
+    position: absolute;
+    left: -20%;
+    height: 4rem;
+    width: 31rem;
+    font-size: 40px;
+    font-weight: bold;
+    border-radius: 15px;
+    outline: none;
+    background-color: rgb(130, 162, 219);
+    color:rgb(94, 10, 204);
 }
+
+.header1{
+    position: absolute;
+    top: 2.5%;    
+    left: 5%;
+    color: rgb(245, 245, 245);
+    font-size: 75px;
+    width: 95%;
+}
+@media only screen and (max-width: 900px) {
+}
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+}
+@media only screen and (min-width: 901px) {
+}
+@media only screen and (min-width: 901px) and (max-width: 1200px) {
+}
+@media only screen and (min-width: 1201px) {
+}
+    

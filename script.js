@@ -4,3 +4,7 @@ window.onscroll = function(){
     let progressHeight = (window.scrollY/ Height) * 100;
     progress.style.width = progressHeight + '%';
 }
+
+
+Initial = () =>{
+}
