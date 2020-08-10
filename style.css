@@ -125,7 +125,7 @@ aside a{
     padding: 5px;
     font-size: 20px;
 }
-/*#region Iframe Div*/
+/*#region side Div*/
 #ExWeb{
     position: absolute;
     top: 20%;
@@ -135,6 +135,7 @@ aside a{
 #ExWeb button{
     width:250px;
     font-weight: bold;
+    outline: none;
     height: 75px;
     font-size: 20px;
     border-radius: 10px;
@@ -188,6 +189,7 @@ video{
 .ending{
     grid-row: 54/ 58;
     grid-column: 1/ 13; 
+    background-color: rgba(43, 36, 36, 0.596);
 }
 .ending a{
     position: relative; 

@@ -4,13 +4,6 @@ SrtSim = () =>{
     AudioScam.load();
     AudioScam.play();
     scamtext();
-    // setInterval(function () {
-    //     var flash = document.getElementById("phone");
-    //     var val1 = Math.round(Math.random() * 255);
-    //     var val2 = Math.round(Math.random() * 255);
-    //     var val3 = Math.round(Math.random() * 255);
-    //     flash.style.color = "rgb("  + val1 + "," + val2 + "," + val3 + ");";
-    // }, 1000);
 }
 
 scamtext = () => {
@@ -19,9 +12,9 @@ scamtext = () => {
     for (var x = 0; x < 25; x++){
         var text = document.createElement("div");
         text.style.color = "rgba(0, 255, 68 , 1)";
-        text.style.fontSize = "25px";
+        text.style.fontSize = "22px";
         text.style.width = "250%";
-        for(var i = 0; i < 40; i ++){
+        for(var i = 0; i < 45; i ++){
                 text.innerHTML += " ERROR  DATA CORRUPTED";
             }
         txt.appendChild(text);

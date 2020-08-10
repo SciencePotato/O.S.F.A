@@ -86,14 +86,26 @@ button{
     font-size: 75px;
     width: 95%;
 }
-@media only screen and (max-width: 900px) {
-}
-@media only screen and (min-width: 601px) and (max-width: 900px) {
-}
 @media only screen and (min-width: 901px) {
+
+
 }
-@media only screen and (min-width: 901px) and (max-width: 1200px) {
+@media only screen and (min-width: 600px) and (max-width: 900px) {
+    
+
+
 }
-@media only screen and (min-width: 1201px) {
+@media only screen and (min-width: 900px) {
+
+
+}
+@media only screen and (min-width: 900px) and (max-width: 1200px) {
+
+
+}
+@media only screen and (min-width: 90px ) {
+
+
+    
 }
     

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> About Us </title>
+    <link rel = "stylesheet" href = "About_Us_Page.css"/>
+</head>
+<body>
+    
+
+    <script src = "About_Us_Page.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.13.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.13.0/firebase-firestore.memory.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.13.0/firebase-auth.js"></script>
+
+    <script>
+      // ADD YOUR firebaseConfig HERE
+        const firebaseConfig = {
+            apiKey: "AIzaSyCQjBFpdbjJE5uajsvvDUygtShtFq2FXjQ",
+            authDomain: "usercomment-be6eb.firebaseapp.com",
+            databaseURL: "https://usercomment-be6eb.firebaseio.com",
+            projectId: "usercomment-be6eb",
+            storageBucket: "usercomment-be6eb.appspot.com",
+            messagingSenderId: "694187247969",
+            appId: "1:694187247969:web:06b1a00bcbdb57bf8add20",
+            measurementId: "G-N4TLMMBRMY"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        let db = firebase.firestore();
+        console.log("hello");
+    </script>
+</body>
+</html>
