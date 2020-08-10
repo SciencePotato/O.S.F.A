@@ -178,9 +178,9 @@ video{
     margin: 2.5% 0px;
     border: solid 2px black;
     overflow: hidden;
-    text-align: center;
-    vertical-align: center;
+    text-align: left;
     font-size: 20px;
+    border-radius: 20px;
 }
 #information p {
    padding: 2.5% 5%;

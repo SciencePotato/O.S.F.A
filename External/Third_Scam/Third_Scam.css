@@ -1,0 +1,90 @@
+
+body{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(20, 1fr);
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    font-size: 25px;
+    overflow: hidden;
+    font-family: 'Rowdies', cursive;
+}
+
+header{
+    grid-column: 1 / 13;
+    grid-row: 1 / 2 ;
+    text-align: center;
+    font-size: 80px;
+    color:black;
+    background-color: rgba(184, 113, 166, 0.1);
+    padding: 10px 0px;
+    font-weight: bold;
+    border-bottom: solid 1px black;
+}
+aside{
+    grid-row: 2 / 21;
+    grid-column: 1 / 2;
+    border-right: solid 1px black;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    background-color: rgba(192, 40, 40, 0.5);
+}
+main{
+    grid-row: 2 / 21;
+    grid-column: 2 / 13;
+    text-align: center; 
+    background-color: rgba(0, 0, 0, 0.1);
+}
+#boxback{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+#box{
+    position: absolute;
+    top:10%;
+    left: 50% ;
+    transform: translatex(-50%);
+    height: 80%;
+    width: 75%;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+#text{
+    position: relative;
+    top: 90%;
+    width: 100%;
+    height: 10%;
+    border-radius: 0px 0px 15px 15px;
+    background-color: rgba(141, 133, 133, 0.747);
+    text-align: center;
+}
+#text div{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    transform: translatex(-50%);
+    font-weight: bold;
+}
+#text div button{
+    width:12.5%;
+    height: 45px;
+    margin: 0px 15%;
+    border-radius: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    color:white;
+}
+#first{
+    background-color: rgba(76, 218, 83, 0.712);
+    outline: none;
+}
+#second{
+    background-color: rgba(211, 62, 62, 0.712);
+    outline: none;
+}

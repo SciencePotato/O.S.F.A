@@ -32,8 +32,36 @@ main{
     grid-row: 3/19;
     border: solid 2px black;
     text-align: center;
-    color: rgba(0,0,0,1);
+    color: white;
     font-size: 20px;
+}
+main section{
+    margin-top: 2.5%;
+    border: solid 2px black;
+    width: 40%;
+    margin: auto;
+    margin-top: 30px ;
+    margin-bottom: 30px ;
+    padding: 25px;
+    border-radius: 20px;
+    background-color: rgb(110, 110, 110);
+}
+main section h1{
+    font-weight: bold;
+    margin: -10px;
+    font-size: 50px;
+}
+main section a{
+    font-weight: bold;
+    font-size: 25px;
+    display: block;
+    color: white;
+    margin-top: 20px;
+    text-decoration: underline;
+}
+main section p{
+    font-weight: bold;
+    font-size: 25px;
 }
 footer{
     grid-row: 19/21;
