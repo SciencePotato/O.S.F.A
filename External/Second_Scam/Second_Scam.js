@@ -1,0 +1,3 @@
+Scam = () =>{
+    event.preventDefault();
+};
