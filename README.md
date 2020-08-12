@@ -6,12 +6,12 @@ Our project, O.S.F.A is created to provide a basic tutorial regarding online saf
 _________
 Group Contributors 
 _________
-	** Hou Chi Chan** (SciencePotato) - Website infrastructure, Prototype architecture, Information Gathering, slide creation
+	**HouChi Chan** (SciencePotato) - Website infrastructure, Prototype architecture, Information Gathering
 	**Jonathan Favours**  - Media Converter 
-	**Emmanuel Lee** Emmanuel Lee - Research
+	**Emmanuel Lee** - Research
 _________
 Outside Contributor
 _________
-	*Yang Fa Wu* - Website tester, Suggestions 
+	*YangFa Wu* - Website tester, Suggestions 
 	*Jeremy Li*  - Website tester, Suggestions 
-    *Billy Yang *- Website tester, Suggestions 
+    *Billy Yang* - Website tester, Suggestions 
