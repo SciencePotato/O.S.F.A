@@ -9,4 +9,4 @@ Hou Chi Chan (SciencePotato) - Website infrastructure, Prototype architecture, I
 _________
 Jonathan Favours - Media Converter 
 _________ 
-Emmanuel Lee - ?????
+Emmanuel Lee - Research
