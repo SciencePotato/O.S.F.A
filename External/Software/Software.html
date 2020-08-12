@@ -39,10 +39,28 @@
     </main>
 
     <footer>
-        <a href="../About_Us_Page/About_Us_Page.html"> Suggestions For Us </a>
-        <a href = "../Tip_Tricks/Tip_Tricks.html"> Tips And Tricks </a>
-        <a href = "../../index.html"> Home </a>
+        <a href = "../Tip_Tricks/Tip_Tricks.html" class = "effect"> Tips And Tricks </a>
+        <a href = "../Definition/Definition.html" target = "_blank" class = "effect"> Word Defintion </a>
+        <a href = "../../index.html" class = "effect"> Home </a>
     </footer>
+    <span style = "position: fixed;bottom:0; left: 0px; width:100%; text-align: center;background-color: rgb(196, 39, 39);color:white;">&copy Copyright all rights reserved to O.S.F.A</span>
     <script src = "Software.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        (function () {
+            $(window).scroll(function() {
+                var a = $(this).scrollTop() + $(this).innerHeight();
+                $(".effect").each(function() { // container must have class name effect to work
+                    var b = $(this).offset().top;
+                    if (a > b && $(this).css("opacity") == 0) {
+                        $(this).css("transform", "none");
+                        $(this).animate({
+                            "opacity": 1
+                        }, 750);
+                    }
+                });
+            }).scroll();
+        })();
+    </script>
 </body>
 </html>

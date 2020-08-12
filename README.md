@@ -1,7 +1,12 @@
 # O.S.F.A
 
-DemoDay Project ASC. Created to give a basic tutorial regarding online
-safety. Many People Young and Old fall trick to the most classic scams
-and this is something people can use to learn to prevent those scams. It's Essential for everyone to be scam proofed.
+A Website built in four days to teach people the basic tutorial of people
 
-By - Hou ( SciencePotato ) , Jonathan , Emanueel Lee 
+Our project, O.S.F.A is created to provide a basic tutorial regarding online safety. Many people, young and old fall trick to the most classic scams. Our website is designed for people to learn and prevent themselves from falling victim to online scams. We believe that it is essential for all internet users to be scamproof. 
+_________
+Contributors 
+Hou Chi Chan (SciencePotato) - Website infrastructure, Prototype architecture, Information Gathering
+_________
+Jonathan Favours - Media Converter 
+_________ 
+Emmanuel Lee - ?????

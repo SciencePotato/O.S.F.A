@@ -101,16 +101,58 @@ body{
         flex-direction: row;
     }
     #img2{
-        width: 150px;
-        height: 150px;
+        width: 80px;
+        height: 80px;
+        padding-top: 30px;
     }
     #warning{ 
-        font-size: 40px;
+        font-size: 25px;
+        padding-left: 60px;
     }
     #infected{
-        font-size: 22px;
+        font-size: 18px;
+        padding-left: 60px;
     }
     #before, #after{
+        padding-top: 10px;
+        font-size: 10px;
+    }
+    #phone{
+        font-size: 30px;
+        margin: 0px;
+    }
+    #redirect{
+        font-size: 50px;
+        height: 30%;
+    }
+    #scams{
+        overflow: hidden;
+    }
+    #box{
+        width: 60%;
+        height: 60%
+    }
+}
+/* @media only screen and (min-width: 901px) {
+    .c{
+        flex-direction: row;
+    }
+    #img2{
+        width: 200px;
+        height: 200px;
+    }
+    #warning{ 
+        font-size: 60px;
+    }
+    #infected{
+        font-size: 30px;
+    }
+    #before{
+        padding-top: 15px;
+        padding-bottom: 15px;
+        font-size: 15px
+    }
+    #after{
         padding-top: 10px;
         font-size: 15px;
     }
@@ -120,14 +162,48 @@ body{
     }
     #redirect{
         font-size: 100px;
+        width: 500px;
+        height: 200px;
     }
     #scams{
         overflow: hidden;
     }
-}
-@media only screen and (min-width: 901px) {
-}
+} */
 @media only screen and (min-width: 901px) and (max-width: 1200px) {
+    .c{
+        flex-direction: row;
+    }
+    #img2{
+        width: 150px;
+        height: 150px;
+    }
+    #warning{ 
+        font-size: 40px;
+    }
+    #infected{
+        font-size: 25px;
+    }
+    #before{
+        padding-top: 15px;
+        padding-bottom: 15px;
+        font-size: 15px
+    }
+    #after{
+        padding-top: 10px;
+        font-size: 15px;
+    }
+    #phone{
+        font-size: 40px;
+        margin: 0px;
+    }
+    #redirect{
+        font-size: 100px;
+        width: 500px;
+        height: 150px;
+    }
+    #scams{
+        overflow: hidden;
+    }
 }
 @media only screen and (min-width: 1201px) and (max-width: 1919px){
     .c{

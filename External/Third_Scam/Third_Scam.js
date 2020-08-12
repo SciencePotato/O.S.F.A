@@ -35,6 +35,7 @@ start = () =>{
                 mainstuff.style.backgroundColor = "rgba(0,0,0,0.3)"
                 mainimage.src = "images/Email.png"
             }
+            mainstuff.classList.add("apple");
             mainstuff.style.height = "40px";
             mainstuff.style.textAlign = "left";
             mainstuff.style.fontSize = "25px";
@@ -116,7 +117,7 @@ Agree = () =>{
 }
 Disagree = () =>{
     decline = true;
-    if(times != 3){
+    if(times < 3){
         alert("That was the correct thing to do. These type of scam usually will pressure you to do stuff for them, if you do it once they'll as you once more and that process repeats.");
     }
 }

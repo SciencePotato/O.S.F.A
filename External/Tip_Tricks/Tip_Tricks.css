@@ -32,8 +32,33 @@ main{
     grid-row: 3/19;
     border: solid 2px black;
     text-align: center;
-    color: rgba(0,0,0,1);
+    color: white;
     font-size: 20px;
+}
+main section{
+    margin-top: 2.5%;
+    border: solid 2px black;
+    width: 40%;
+    margin: auto;
+    margin-top: 30px ;
+    margin-bottom: 30px ;
+    padding: 25px;
+    border-radius: 20px;
+    background-color: rgb(110, 110, 110);
+}
+main section h1{
+    font-weight: bold;
+    margin: -10px;
+    font-size: 40px;
+}
+main section p{
+    font-weight: bold;
+    font-size: 25px;
+    display: block;
+    color: white;
+    margin:auto;
+    margin-top: 20px;
+    width:50%;
 }
 footer{
     grid-row: 19/21;
@@ -57,6 +82,11 @@ body::-webkit-scrollbar{
 body::-webkit-scrollbar-thumb{
     background-color: white;
     border-radius: 15px;
+}
+.effect {
+    opacity: 0;
+    transform: translateY(100px);
+    transition: transform 0.75s;
 }
 
 @media only screen and (max-width: 900px) {

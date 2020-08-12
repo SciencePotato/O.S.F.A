@@ -87,26 +87,230 @@ button{
     font-size: 75px;
     width: 95%;
 }
+@media only screen and (max-width: 900px) {
+    header {
+        font-size: 30px;
+    }
+    h1 {
+        font-size: 17px;
+    }
+    button {
+        font-size: 20;
+        height: 57px;
+        width: 380px
+    }
+    content { 
+        width: 30px;
+        height: 600px;
+        padding: 10%;
+    }
+    form {
+        font-size: 15px;
+    }
+    input#user {
+        height: 25px;
+        width: 160px;
+    }
+    input#pass {
+        height: 25px;
+        width: 160px;
+    }
+    span#usernames {
+        font-size: 50px;
+    }
+    span#usercomments {
+        font-size: 50px;
+    }
+    main {
+        width: 500px;
+        height: 500px;
+    }
+    img {
+        width: 200px;
+        height: 100px;
+    }
+}
+@media only screen and (min-width: 600px) and (max-width: 900px) {
+    span#usernames, span#usercomments{
+        font-size: 50%;
+    }
+    html{
+        overflow: none;
+    }
+    body{
+        background-Size: 500%;
+        background-position: -500px 0px;
+    }
+    content{
+        position: absolute;
+        left: 10%;
+        top: 55%;
+        padding: 10% 15%;
+        border-radius: 50px; 
+        font-size: 20px;
+        width: 250px;
+        height: 50px;
+        font-weight: bold;
+        color: white;
+        background-color: rgba(0,0,0,0.4);    
+    }
+    main{
+        position: relative;
+        top: 30%;
+        left: 20%;
+        padding: 300px 400px;
+        width: 30%;
+        height: 30%;
+        border-radius: 50px; 
+        background-color: rgba(0,0,0,0.5);
+    }
+    main img{
+        position: absolute;
+        left: 65%;
+        height: 60%;
+    }
+
+}
 @media only screen and (min-width: 901px) {
 
 
 }
-@media only screen and (min-width: 600px) and (max-width: 900px) {
+@media only screen and (min-width: 901px) and (max-width: 1200px) {
+    span#usernames {
+        font-size: 60px;
+    }
+    span#usercomments {
+        font-size: 60px;
+    }
+    html{
+        overflow: none;
+    }
+    body{
+        background-Size: 320%;
+    }
+    content{
+        position: absolute;
+        left: 10%;
+        top: 55%;
+        padding: 10% 15%;
+        border-radius: 50px; 
+        font-size: 20px;
+        width: 250px;
+        font-weight: bold;
+        color: white;
+        background-color: rgba(0,0,0,0.4);    
+    }
+    main{
+        position: relative;
+        top: 30%;
+        left: 20%;
+        padding: 300px 400px;
+        width: 30%;
+        height: 30%;
+        border-radius: 50px; 
+        background-color: rgba(0,0,0,0.5);
+    }
+    main img{
+        position: absolute;
+        left: 65%;
+        height: 60%;
+    }
+    #white{
+        top: 40%;
+    }
+}
+@media only screen and (min-width: 1201px) and (max-width: 1919px){
+    content {
+        position: absolute;
+        left: 6%;
+        top: 59%;
+        padding: 11% 17%;
+        border-radius: 50px;
+        font-size: 20px;
+        width: 250px;
+        height: 50px;
+        font-weight: bold;
+        color: white;
+        background-color: rgba(0,0,0,0.4);
+    }
+    main{
+        position: relative;
+        top: 20%;
+        left: 10%;
+        padding: 200px 300px;
+        width: 30%;
+        height: 30%;
+        border-radius: 50px; 
+        background-color: rgba(0,0,0,0.5);
+    }
+    body{
+        background-position: -100px 0px;
+        background-size: 140%;
+    }
+    #usercomments, #usernames{
+        font-size: 25px;
+    }
+    #pineapple{
+        padding-left: 450px;
+        width: 35%;
+        height: 60%;
+    }
+    header {
+        top: 5%;
+        left: 10%;
+        color: rgb(251, 255, 0);
+        font-size: 300px;
+        }
+    main h1{
+        font-size: 30px;
+        left: 10%;
+        top: 25%;
+    }
+    input{
+        width: 100px;
+    }
+    button{
+        width: 350px;
+        font-size: 30px;
+    }
+    #white{
+        height: 60%;
+        left: 70%
+    }
+}
+/* ipads */
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+    .header1 {
+        position: absolute;
+        top: 2.5%;
+        left: 5%;
+        color: rgb(245, 245, 245);
+        font-size: 60px;
+        width: 95%;
+        text-align: center;
+    }
+
+  main {
+       position: relative;
+    top: 15%;
+    left: 3%;
+    padding: 240px 361px;
+    width: 0%;
+    height: 30%;
+    border-radius: 50px;
+    background-color: rgba(0,0,0,0.5);
     
+  }
 
-
-}
-@media only screen and (min-width: 900px) {
-
-
-}
-@media only screen and (min-width: 900px) and (max-width: 1200px) {
-
-
-}
-@media only screen and (min-width: 90px ) {
-
-
-    
+  html, body {
+    overflow-x: hidden;
+  }
+  main img {
+    position: absolute;
+    left: 75%;
+    height: 47%;
+    width: 24%;
+    top: 47%;
+    }
 }
     

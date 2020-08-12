@@ -56,7 +56,9 @@ main section a{
     font-size: 25px;
     display: block;
     color: white;
+    margin:auto;
     margin-top: 20px;
+    width:50%;
     text-decoration: underline;
 }
 main section p{
@@ -85,6 +87,11 @@ body::-webkit-scrollbar{
 body::-webkit-scrollbar-thumb{
     background-color: white;
     border-radius: 15px;
+}
+.effect {
+    opacity: 0;
+    transform: translateY(100px);
+    transition: transform 0.75s;
 }
 
 @media only screen and (max-width: 900px) {
