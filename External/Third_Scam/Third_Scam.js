@@ -1,4 +1,4 @@
-firstname = ["Kevin", "Jason","Hao","Jeremy","Mattew","James","Jessica","Sara","Sarah","Rebecca","Jessie","Ruby","Nancy","Candy","Andy","Rowdy","Sean","Shawn","Edmund","Stewie","Patrick","Spongebob"];
+firstname = ["Kevin", "Jason","Hao","Jeremy","Mattew","James","Jessica","Sara","Sarah","Rebecca","Jessie","Ruby","Nancy","Candy","Andy","Rowdy","Sean","Shawn","Edmund","Stewie","Patrick"];
 lastname = ["Chen","Lin","Dick","Smith","McDonald","Zhu","Uddin"];
 addon = ["","I","II","III","IV","Jr.","V","VI","VII","VIII","IX","X"];
 imageslink = ["images/Profile.png","images/Profile2.png","images/Profile3.png","images/Profile4.png"]
