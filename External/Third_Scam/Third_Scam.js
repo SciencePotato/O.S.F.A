@@ -80,7 +80,7 @@ yourtalk = ["Oh No what do you want","Okay I will do that Please let me go","You
 
 Agree = () =>{
     if(decline == false){
-        if(times != 3){
+        if(times <= 3){
             textarea = document.getElementById("box");
             var scam = document.createElement("div"); 
             var yourreply = document.createElement("div");
@@ -104,7 +104,6 @@ Agree = () =>{
             scam.style.paddingBottom = "10px";
             textarea.appendChild(yourreply);
             textarea.appendChild(scam);
-
             times++;  
         } 
         if(times == 3){
