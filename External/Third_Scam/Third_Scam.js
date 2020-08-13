@@ -21,7 +21,7 @@ start = () =>{
             var first = Math.floor(Math.random() * firstname.length);
             var last = Math.floor(Math.random() * lastname.length);
             var add = Math.floor(Math.random() * addon.length)
-            mainname.innerHTML = innerHTML = firstname[first] + lastname[last] + addon[add] + "@email.com" ;
+            mainname.innerHTML = innerHTML = firstname[first] + lastname[last] + addon[add] + "@email" ;
             mainname.innerHTML = mainname.innerHTML.toLowerCase();
             mainname.style.paddingLeft = "50px";
             mainname.style.fontSize = "20px";
@@ -85,7 +85,7 @@ Agree = () =>{
             textarea = document.getElementById("box");
             var scam = document.createElement("div"); 
             var yourreply = document.createElement("div");
-            yourreply.innerHTML = "You : " + yourtalk[times]; 
+            yourreply.innerHTML = "Rowdy : " + yourtalk[times]; 
             yourreply.style.paddingLeft = "20px";
             yourreply.style.marginTop = "50px";
             yourreply.style.paddingTop = "10px";
