@@ -67,39 +67,8 @@ body{
     top: 20px; 
     left: 5%;
 }
-@media only screen and (max-width: 900px) {
-    .c{
-        flex-direction: row;
-    }
-    #img2{
-        width: 150px;
-        height: 150px;
-    }
-    #warning{ 
-        font-size: 40px;
-    }
-    #infected{
-        font-size: 22px;
-    }
-    #before, #after{
-        padding-top: 10px;
-        font-size: 15px;
-    }
-    #phone{
-        font-size: 45px;
-        margin: 0px;
-    }
-    #redirect{
-        font-size: 100px;
-    }
-    #scams{
-        overflow: hidden;
-    }
-}
-@media only screen and (min-width: 601px) and (max-width: 900px) {
-    .c{
-        flex-direction: row;
-    }
+
+@media only screen and (min-width: 600px) and (max-width: 900px) {
     #img2{
         width: 80px;
         height: 80px;
@@ -125,54 +94,11 @@ body{
         font-size: 50px;
         height: 30%;
     }
-    #scams{
-        overflow: hidden;
-    }
     #box{
-        width: 60%;
-        height: 60%
+        height: 30%
     }
 }
-/* @media only screen and (min-width: 901px) {
-    .c{
-        flex-direction: row;
-    }
-    #img2{
-        width: 200px;
-        height: 200px;
-    }
-    #warning{ 
-        font-size: 60px;
-    }
-    #infected{
-        font-size: 30px;
-    }
-    #before{
-        padding-top: 15px;
-        padding-bottom: 15px;
-        font-size: 15px
-    }
-    #after{
-        padding-top: 10px;
-        font-size: 15px;
-    }
-    #phone{
-        font-size: 45px;
-        margin: 0px;
-    }
-    #redirect{
-        font-size: 100px;
-        width: 500px;
-        height: 200px;
-    }
-    #scams{
-        overflow: hidden;
-    }
-} */
 @media only screen and (min-width: 901px) and (max-width: 1200px) {
-    .c{
-        flex-direction: row;
-    }
     #img2{
         width: 150px;
         height: 150px;
@@ -201,14 +127,11 @@ body{
         width: 500px;
         height: 150px;
     }
-    #scams{
-        overflow: hidden;
+    #box{
+        height: 40%
     }
 }
-@media only screen and (min-width: 1201px) and (max-width: 1919px){
-    .c{
-        flex-direction: row;
-    }
+@media only screen and (min-width: 1201px) and (max-width: 1650px){
     #img2{
         width: 200px;
         height: 200px;
@@ -237,8 +160,41 @@ body{
         width: 500px;
         height: 200px;
     }
-    #scams{
-        overflow: hidden;
+    #box{
+        height: 60%
+    }
+}
+@media only screen and (max-width: 600px){
+    #img2{
+        width: 50px;
+        height: 50px;
+    }
+    #warning{ 
+        font-size: 30px;
+    }
+    #infected{
+        font-size: 20px;
+    }
+    #before{
+        padding-top: 15px;
+        padding-bottom: 15px;
+        font-size: 15px
+    }
+    #after{
+        padding-top: 10px;
+        font-size: 15px;
+    }
+    #phone{
+        font-size: 35px;
+        margin: 0px;
+    }
+    #redirect{
+        font-size: 75px;
+        width: 200px;
+        height: 200px;
+    }
+    #box{
+        height: 50%
     }
 }
     

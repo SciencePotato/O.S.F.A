@@ -21,7 +21,7 @@ start = () =>{
             var first = Math.floor(Math.random() * firstname.length);
             var last = Math.floor(Math.random() * lastname.length);
             var add = Math.floor(Math.random() * addon.length)
-            mainname.innerHTML = innerHTML = firstname[first] + lastname[last] + addon[add] + "@example.com" ;
+            mainname.innerHTML = innerHTML = firstname[first] + lastname[last] + addon[add] + "@email.com" ;
             mainname.innerHTML = mainname.innerHTML.toLowerCase();
             mainname.style.paddingLeft = "50px";
             mainname.style.fontSize = "20px";
@@ -36,10 +36,11 @@ start = () =>{
                 mainimage.src = "images/Email.png"
             }
             mainstuff.classList.add("apple");
-            mainstuff.style.height = "40px";
+            mainstuff.style.height = "50px";
             mainstuff.style.textAlign = "left";
-            mainstuff.style.fontSize = "25px";
+            mainstuff.style.fontSize = "10px";
             mainstuff.style.borderBottom = "solid 1px black";
+            mainstuff.setAttribute("class","backgroundtext");
             mainstuff.appendChild(mainimage);
             mainstuff.appendChild(mainname);
             mainstuff.appendChild(maininfo);
@@ -70,7 +71,7 @@ start = () =>{
     scam.style.paddingBottom = "10px";
     scam.style.marginLeft ="2%";
     scam.style.borderRadius = "10px";
-
+    scam.setAttribute("class","replysize");
     
     textarea.appendChild(scam);
 }
@@ -93,6 +94,7 @@ Agree = () =>{
             yourreply.style.borderRadius = "10px";
             yourreply.style.backgroundColor = "white";
             yourreply.style.paddingBottom = "10px";
+            yourreply.setAttribute("class","replysize");
             scam.innerHTML = "Anonymous : " + eviltalk[times];
             scam.style.backgroundColor = "white";
             scam.style.paddingLeft = "20px";
@@ -102,6 +104,7 @@ Agree = () =>{
             scam.style.marginLeft ="2%";
             scam.style.borderRadius = "10px";
             scam.style.paddingBottom = "10px";
+            scam.setAttribute("class","replysize");
             textarea.appendChild(yourreply);
             textarea.appendChild(scam);
             times++;  

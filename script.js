@@ -54,7 +54,7 @@ fourthchange = () => {
 (function () {
     $(window).scroll(function() {
         var a = $(this).scrollTop() + $(this).innerHeight();
-        $(".effect").each(function() { // container must have class name effect to work
+        $(".effect").each(function() { 
             var b = $(this).offset().top;
             if (a > b && $(this).css("opacity") == 0) {
                 $(this).css("transform", "none");

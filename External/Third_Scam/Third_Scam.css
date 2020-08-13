@@ -80,6 +80,12 @@ main{
     font-weight: bold;
     color:white;
 }
+.replysize{
+    font-size: 25px;
+    height: 25px;
+    margin: 0%;
+
+}
 #first{
     background-color: rgba(76, 218, 83, 0.712);
     outline: none;
@@ -89,16 +95,7 @@ main{
     outline: none;
 }
 
-@media only screen and (min-width: 1240px) and (max-width: 1919px){
-    #text div button {
-        width: 10.5%;
-        height: 36px;
-        margin: 0px 15%;
-        border-radius: 10px;
-        font-size: 14px;
-        font-weight: bold;
-        color: white;
-    }
+@media only screen and (min-width: 1240px) and (max-width: 1640px){
     #text {
         position: relative;
         top: 90%;
@@ -109,11 +106,9 @@ main{
         text-align: center;
     }
     #box {
-        position: absolute;
-        top: 0%;
+        top: 10%;
         left: 50%;
-        transform: translatex(-50%);
-        height: 97%;
+        height: 85%;
         width: 75%;
         border-radius: 15px;
         background-color: rgba(0, 0, 0, 0.5);
@@ -122,5 +117,99 @@ main{
         height: 25px;
         padding: 0px;
     }
+    #text div button{
+        height: 75px;
+        width: 200px;
+        margin: 0px 10%;
+        font-size: 25px;
+    }
+    .replysize{
+        font-size: 20px;
+        height: 25px;
+        margin-top: -100px;
+    }
 }
 
+@media only screen and (min-width: 900px) and (max-width: 1240px){
+    #text {
+        position: relative;
+        top: 90%;
+        width: 100%;
+        height: 13%;
+        border-radius: 0px 0px 15px 15px;
+        background-color: rgba(141, 133, 133, 0.747);
+        text-align: center;
+    }
+    #box {
+        top: 10%;
+        left: 50%;
+        height: 85%;
+        width: 85%;
+    }
+    div {
+        height: 25px;
+        padding: 0px;
+    }
+    #text div button{
+        height: 75px;
+        width: 200px;
+        margin: 0px 10%;
+        font-size: 25px;
+    }
+    .replysize{
+        font-size: 15px;
+        height: 25px;
+    }
+}
+@media only screen and (min-width: 600px) and (max-width: 900px){
+    #text {
+        width: 100%;
+        height: 13%;
+    }
+    #box {
+        top: 10%;
+        left: 50%;
+        height: 85%;
+        width: 95%;
+    }
+    div {
+        height: 25px;
+        padding: 0px;
+    }
+    #text div button{
+        height: 50px;
+        width: 100px;
+        margin: 0px 10%;
+        font-size: 15px;
+    }
+    .replysize{
+        font-size: 15px;
+        height: 15px;
+    }
+}
+@media only screen and (max-width: 600px){
+    #text {
+        width: 100%;
+        height: 13%;
+    }
+    #box {
+        top: 10%;
+        left: 50%;
+        height: 85%;
+        width: 100%;
+    }
+    div {
+        height: 25px;
+        padding: 0px;
+    }
+    #text div button{
+        height: 50px;
+        width: 100px;
+        margin: 0px 10%;
+        font-size: 15px;
+    }
+    .replysize{
+        font-size: 15px;
+        height: 25px;
+    }
+}

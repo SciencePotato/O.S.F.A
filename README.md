@@ -6,11 +6,19 @@ Our project, O.S.F.A is created to provide a basic tutorial regarding online saf
 
 # Group Contributors 
 
-**HouChi Chan (SciencePotato) Website infrastructure, Prototype architecture, Information Gathering** 
+**HouChi Chan (SciencePotato) Website infrastructure, Prototype architecture, Main Media Converter, Information Gathering** 
+
 **Jonathan Favours Media Converter**  
+
 **Emmanuel Lee Research** 
 
 # Outside Contributor
+
 *YangFa Wu Website tester, Suggestions* 
+
 *Jeremy Li Website tester, Suggestions*  
+
 *Billy Yang Website tester, Suggestions* 
+
+> Starting Date: 8 / 9 / 2020
+> Ending Date : 8 / 14 / 2020

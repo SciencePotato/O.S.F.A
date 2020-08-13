@@ -15,8 +15,8 @@ scamtext = () => {
         text.style.fontSize = "22px";
         text.style.width = "250%";
         for(var i = 0; i < 45; i ++){
-                text.innerHTML += " ERROR  DATA CORRUPTED";
-            }
+            text.innerHTML += " ERROR  DATA CORRUPTED";
+        }
         txt.appendChild(text);
     }
 }
