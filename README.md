@@ -10,7 +10,7 @@ Our project, O.S.F.A is created to provide a basic tutorial regarding online saf
 
 **Jonathan Favours Media Converter**  
 
-**Emmanuel Lee Research** 
+**Emmanuel Lee *Sub* Media Converter 15 css lines** 
 
 # Outside Contributor
 
@@ -20,5 +20,5 @@ Our project, O.S.F.A is created to provide a basic tutorial regarding online saf
 
 *Billy Yang Website tester, Suggestions* 
 
-> Starting Date: 8 / 9 / 2020
+> Starting Date: 8 / 10 / 2020
 > Ending Date : 8 / 14 / 2020
